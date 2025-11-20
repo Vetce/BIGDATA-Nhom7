@@ -1,0 +1,21 @@
+{
+  "name": "BIGDATA File Display App",
+  "short_description": "React UI for browsing BIGDATA result files",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "http://localhost:3000",
+  "directories_scanned": [
+    "quick-result",
+    "Optimize-Delivery/optimize/result",
+    "Inventory-Management/result"
+  ],
+  "features": [
+    "Browse files from multiple directories",
+    "Preview CSV and JSON files",
+    "Download files directly",
+    "View file metadata",
+    "Tabbed navigation",
+    "Responsive Material-UI design"
+  ]
+}

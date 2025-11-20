@@ -1,0 +1,39 @@
+{
+  "timestamp": "20251120_163355",
+  "data_summary": {
+    "pickup_total_orders": 531115,
+    "delivery_total_orders": 472419,
+    "pickup_test_orders": 106223,
+    "delivery_test_orders": 94484,
+    "pickup_cities": 5,
+    "delivery_cities": 3
+  },
+  "pickup_model": {
+    "test_loss": 0.00017407411360181868,
+    "test_mae": 0.011246351525187492,
+    "test_mse": 0.00017407411360181868,
+    "avg_efficiency_score": 0.20702911406238345,
+    "predicted_avg_efficiency": 0.2008327841758728
+  },
+  "delivery_model": {
+    "test_loss": 0.00016298131959047168,
+    "test_mae": 0.007678888738155365,
+    "test_mse": 0.00016298131959047168,
+    "avg_efficiency_score": 0.37366863229853275,
+    "predicted_avg_efficiency": 0.38024434447288513
+  },
+  "optimization_impact": {
+    "pickup_test_improvement_potential": 0.0060890428721904755,
+    "delivery_test_improvement_potential": -0.005920326337218285,
+    "high_priority_pickup_routes": 52913,
+    "high_priority_delivery_routes": 32612
+  },
+  "files_exported": {
+    "pickup_model": "/home/sirin/BIGDATA/quick-result/pickup_optimizer_model_20251120_163355.h5",
+    "delivery_model": "/home/sirin/BIGDATA/quick-result/delivery_optimizer_model_20251120_163355.h5",
+    "artifacts": "/home/sirin/BIGDATA/quick-result/preprocessing_artifacts_20251120_163355.pkl",
+    "pickup_results": "/home/sirin/BIGDATA/quick-result/pickup_optimization_results_20251120_163355.csv",
+    "delivery_results": "/home/sirin/BIGDATA/quick-result/delivery_optimization_results_20251120_163355.csv",
+    "recommendations": "/home/sirin/BIGDATA/quick-result/recommendations_summary_20251120_163355.csv"
+  }
+}

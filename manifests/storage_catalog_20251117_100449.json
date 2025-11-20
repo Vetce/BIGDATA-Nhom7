@@ -1,0 +1,19 @@
+{
+  "created": "2025-11-17T10:04:40.792885",
+  "folders": {
+    "optimize_delivery": {
+      "path": "/home/sirin/BIGDATA/Optimize-Delivery/optimize/result",
+      "manifest": "/home/sirin/BIGDATA/manifests/optimize_delivery_manifest_20251117_100440.json",
+      "archive": "/home/sirin/BIGDATA/archives/optimize_delivery_20251117_100440.zip",
+      "file_count": 28,
+      "total_size": 216691118
+    },
+    "inventory_management": {
+      "path": "/home/sirin/BIGDATA/Inventory-Management/result",
+      "manifest": "/home/sirin/BIGDATA/manifests/inventory_management_manifest_20251117_100448.json",
+      "archive": "/home/sirin/BIGDATA/archives/inventory_management_20251117_100448.zip",
+      "file_count": 4,
+      "total_size": 146705136
+    }
+  }
+}

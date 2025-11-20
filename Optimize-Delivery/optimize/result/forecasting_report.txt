@@ -1,0 +1,66 @@
+================================================================================
+STG (SEASONAL TIME SERIES) FORECASTING REPORT
+================================================================================
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Analysis Date: 2025-11-15 11:47:33
+Total Cities Analyzed: 5
+Total Deliveries Analyzed: 451,466
+Analysis Period: 2024-05-01 00:00:00 to 2024-11-16 00:00:00
+Forecast Period: 7 days ahead
+
+DECOMPOSITION ANALYSIS
+--------------------------------------------------------------------------------
+     city  total_deliveries  avg_daily  max_daily  min_daily  std_dev  trend  days_covered
+Chongqing             93003      479.4       1381          1    250.5    1.9           194
+    Jilin              3172       20.5         43          1     10.3    2.3           155
+ Shanghai            148503      789.9       1761          1    421.1  496.7           188
+ Hangzhou            186282      965.2       1736          1    313.6    1.7           193
+   Yantai             20506      110.8        211          3     26.7  115.0           185
+
+FORECAST SUMMARY (NEXT 7 DAYS)
+--------------------------------------------------------------------------------
+           Total_7D  Avg_Daily  Min_Daily  Max_Daily
+city                                                
+Chongqing      3313      473.3        409        510
+Hangzhou       6762      966.0        937       1008
+Jilin           143       20.4         19         22
+Shanghai       5389      769.9        729        819
+Yantai          762      108.9        100        118
+
+TREND ANALYSIS
+--------------------------------------------------------------------------------
+Chongqing       | Trend:     1.9 | Growth:   90.0% | ↑ GROWING
+Jilin           | Trend:     2.3 | Growth:  130.0% | ↑ GROWING
+Shanghai        | Trend:   496.7 | Growth: 49570.0% | ↑ GROWING
+Hangzhou        | Trend:     1.7 | Growth:   70.0% | ↑ GROWING
+Yantai          | Trend:   115.0 | Growth: 3733.3% | ↑ GROWING
+
+SEASONALITY INSIGHTS
+--------------------------------------------------------------------------------
+
+Chongqing:
+  Peak: Monday       (    521 deliveries)
+  Low:  Friday       (    428 deliveries)
+  Variation: 21.7%
+
+Hangzhou:
+  Peak: Sunday       (   1008 deliveries)
+  Low:  Thursday     (    939 deliveries)
+  Variation: 7.3%
+
+Jilin:
+  Peak: Saturday     (     22 deliveries)
+  Low:  Thursday     (     18 deliveries)
+  Variation: 17.9%
+
+Shanghai:
+  Peak: Sunday       (    814 deliveries)
+  Low:  Friday       (    758 deliveries)
+  Variation: 7.3%
+
+Yantai:
+  Peak: Monday       (    116 deliveries)
+  Low:  Friday       (    103 deliveries)
+  Variation: 13.2%

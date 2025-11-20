@@ -1,0 +1,28 @@
+======================================================================
+ETA PREDICTION SUMMARY - ALL CITIES 
+======================================================================
+
+OVERALL STATISTICS:
+  Total Orders Processed: 902,931
+  Average ETA: 22.6 minutes
+  Min ETA: 6.8 minutes
+  Max ETA: 45.0 minutes
+  Std Deviation: 8.9 minutes
+
+BY CITY SUMMARY:
+          order_id distance_km total_eta_minutes            
+             count        mean              mean   min   max
+city                                                        
+Chongqing   186270         9.0              25.6  10.2  41.0
+Hangzhou    372320         7.0              19.0   7.3  30.7
+Jilin         6283        10.0              22.8   6.8  38.7
+Shanghai    296772        11.0              26.0   7.0  45.0
+Yantai       41286         6.0              16.9   7.3  26.4
+
+ETA DISTRIBUTION:
+  (0, 15]: 217,841 orders (24.1%)
+  (15, 25]: 347,116 orders (38.4%)
+  (25, 35]: 231,363 orders (25.6%)
+  (35, 50]: 106,611 orders (11.8%)
+
+======================================================================

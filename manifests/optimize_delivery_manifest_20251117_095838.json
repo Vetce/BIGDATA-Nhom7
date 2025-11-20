@@ -1,0 +1,177 @@
+{
+  "timestamp": "2025-11-17T09:58:38.374562",
+  "folder_name": "optimize_delivery",
+  "folder_path": "/home/sirin/BIGDATA/Optimize-Delivery/optimize/result",
+  "files": [
+    {
+      "name": "daily_stats.csv",
+      "size": 21204,
+      "hash": "3b4375a0e1f49c9b4ef72866bf3839590056a70dd1b1256106ec424e73562682",
+      "type": "csv"
+    },
+    {
+      "name": "decomposition_analysis.png",
+      "size": 243308,
+      "hash": "61830f9e5b6fe1d273b12bd370f7e3427ac2bf1581d79aac29ef3054d3130bc9",
+      "type": "png"
+    },
+    {
+      "name": "decomposition_summary.csv",
+      "size": 284,
+      "hash": "5619906c39b86f7e936785303cb68aab0d87b3609135670081484f2a7a6bb4a9",
+      "type": "csv"
+    },
+    {
+      "name": "eta_chongqing_20251115_110241.csv",
+      "size": 9470762,
+      "hash": "6bad82e350640e96fc5de89f333b860cb9bb156b2f3fb9e70c30c2ffff0d1aeb",
+      "type": "csv"
+    },
+    {
+      "name": "eta_hangzhou_20251115_110241.csv",
+      "size": 18316825,
+      "hash": "a597d05ef8b7c4b7a4020d651a644ec91385642eef1e1f2440049779b3ea6232",
+      "type": "csv"
+    },
+    {
+      "name": "eta_jilin_20251115_110242.csv",
+      "size": 293108,
+      "hash": "07213f09f7275118bdb1e94b4d1106c0d60725cee3ac9def5ee01e51a80ffe95",
+      "type": "csv"
+    },
+    {
+      "name": "eta_predictions_20251115_110237.csv",
+      "size": 44792410,
+      "hash": "60c5e336e76afbcc04f0b4280bb0e5e7d67e9204a2c70561f9005e914bc85531",
+      "type": "csv"
+    },
+    {
+      "name": "eta_shanghai_20251115_110243.csv",
+      "size": 14778480,
+      "hash": "f9396358943177f33f94cc2559a2fd21b7a552bf7b8e06ed7fb3d679fb82097b",
+      "type": "csv"
+    },
+    {
+      "name": "eta_summary_20251115_110241.txt",
+      "size": 1074,
+      "hash": "8d1373f06daf26dbca1ce5917313feeeca3336382e1c0085ba45ed28b7ccb9ed",
+      "type": "txt"
+    },
+    {
+      "name": "eta_visualization_20251115_110240.png",
+      "size": 353302,
+      "hash": "a59c17a28d40904fca6790627f5359b7e924c46c368bf8624cbf7c37bfcb365d",
+      "type": "png"
+    },
+    {
+      "name": "eta_yantai_20251115_110243.csv",
+      "size": 1933615,
+      "hash": "5181347c245a24cf04851c3d5f1fdf0417e0a302da80690c234a9dc566636858",
+      "type": "csv"
+    },
+    {
+      "name": "forecast_7days.csv",
+      "size": 1183,
+      "hash": "b87177525fd6a504b2eb19bf7633019fa3c3b6133e287cf4dbafd9e538b6f4f6",
+      "type": "csv"
+    },
+    {
+      "name": "forecast_7days_trend.png",
+      "size": 209431,
+      "hash": "77c2651147818686b3fbf0bd57f1df4b5a451d6145d582c26e9263ce8dd2a64f",
+      "type": "png"
+    },
+    {
+      "name": "forecast_detailed.csv",
+      "size": 1183,
+      "hash": "b87177525fd6a504b2eb19bf7633019fa3c3b6133e287cf4dbafd9e538b6f4f6",
+      "type": "csv"
+    },
+    {
+      "name": "forecasting_report.txt",
+      "size": 2718,
+      "hash": "f34c3b2e82f86fc639c71f7b42965b104e0a6562ec44a7b6ae2b4fe8d3f95175",
+      "type": "txt"
+    },
+    {
+      "name": "optimization_visualization.png",
+      "size": 819338,
+      "hash": "c22a195bb21cf82daf69d282a53dbde1569ce0b5c104cb4b23bfa7b5512e6aef",
+      "type": "png"
+    },
+    {
+      "name": "optimized_routes_results.csv",
+      "size": 1626186,
+      "hash": "88694721a21044444408547caa61838f3a8e8eed9a100084adfeee232f9c1390",
+      "type": "csv"
+    },
+    {
+      "name": "routes_by_type_20251115_111811.csv",
+      "size": 329,
+      "hash": "cc53b6c417c25cb21e9ad5fb034761ba6f8f0b4f3bc90eff7c33d9e0de072849",
+      "type": "csv"
+    },
+    {
+      "name": "routes_chongqing_20251115_111808.csv",
+      "size": 13890364,
+      "hash": "b791b6520d9cfa1509ea78948679e532cf4b06f5b89c3b25df6643d503b57a28",
+      "type": "csv"
+    },
+    {
+      "name": "routes_hangzhou_20251115_111809.csv",
+      "size": 27478015,
+      "hash": "02d926f0bb7532f2d01306eb23576d5731d90107350c0e79918e237f20de669f",
+      "type": "csv"
+    },
+    {
+      "name": "routes_jilin_20251115_111810.csv",
+      "size": 441802,
+      "hash": "5d518a8bd2d8dfd97cea6215e06eb6fb95b37d8b8a4a8b6fa5121b9fdae66509",
+      "type": "csv"
+    },
+    {
+      "name": "routes_optimization_summary.csv",
+      "size": 285,
+      "hash": "dab9263d8174beb7032d82cebdd1e064cce86b26aec8b3fea4fb21eebfc88f95",
+      "type": "csv"
+    },
+    {
+      "name": "routes_predictions_20251115_111758.csv",
+      "size": 56589350,
+      "hash": "4fb7b0ebdfc12e0c9bbc855b97ab8cd4f255a45af61c854cc08d5e32c9720f91",
+      "type": "csv"
+    },
+    {
+      "name": "routes_shanghai_20251115_111810.csv",
+      "size": 21717257,
+      "hash": "f92ac2eb0446259f5f796085929b94dfdfc45b73d67b117d67585a23ada2996e",
+      "type": "csv"
+    },
+    {
+      "name": "routes_summary_20251115_111808.txt",
+      "size": 1463,
+      "hash": "331b3e89e59d2ce8da7e03055720660755f5121a5f2f553300b8f7be44a8258e",
+      "type": "txt"
+    },
+    {
+      "name": "routes_visualization_20251115_111802.png",
+      "size": 553659,
+      "hash": "37cca8b8c2fba03ffdc8f644a25fbea0422908128911da768a30569567336e52",
+      "type": "png"
+    },
+    {
+      "name": "routes_yantai_20251115_111811.csv",
+      "size": 2976226,
+      "hash": "f5aed79ea45a66e5d20de1c685f6ec674c1837c724be2f1c133bf201dc07e7d6",
+      "type": "csv"
+    },
+    {
+      "name": "seasonality_heatmap.png",
+      "size": 177957,
+      "hash": "105004e8a056f977de01f63798ae755cd93881bfa4670194a61978ac6c429bb5",
+      "type": "png"
+    }
+  ],
+  "total_size": 216691118,
+  "file_count": 28
+}

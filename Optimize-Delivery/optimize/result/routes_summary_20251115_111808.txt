@@ -1,0 +1,36 @@
+======================================================================
+ROUTE PREDICTION SUMMARY - ALL CITIES (1/5 ORDERS)
+======================================================================
+
+OVERALL STATISTICS:
+  Total Routes Analyzed: 902,931
+  Average Route Time: 28.0 minutes
+  Min Route Time: 11.4 minutes
+  Max Route Time: 48.9 minutes
+  Std Deviation: 7.5 minutes
+  Average Travel Speed: 23.7 km/h
+  Average Efficiency: 0.29 km/min
+
+ROUTE TYPE BREAKDOWN:
+  secondary   : 374,494 routes ( 41.5%)
+  primary     : 319,844 routes ( 35.4%)
+  residential : 208,593 routes ( 23.1%)
+
+BY CITY SUMMARY:
+          order_id distance_km actual_speed total_route_time            
+             count        mean         mean             mean   min   max
+city                                                                    
+Chongqing   186270         9.0         21.8             31.0  17.1  44.9
+Hangzhou    372320         7.0         22.5             24.9  12.2  34.6
+Jilin         6283        10.0         28.1             27.4  11.4  42.5
+Shanghai    296772        11.0         26.8             30.5  11.7  48.9
+Yantai       41286         6.0         21.2             23.5  12.2  34.0
+
+ROUTE TIME DISTRIBUTION:
+  (0, 15]:  18,567 routes (  2.1%)
+  (15, 25]: 337,409 routes ( 37.4%)
+  (25, 35]: 392,864 routes ( 43.5%)
+  (35, 45]: 137,852 routes ( 15.3%)
+  (45, 70]:  16,239 routes (  1.8%)
+
+======================================================================

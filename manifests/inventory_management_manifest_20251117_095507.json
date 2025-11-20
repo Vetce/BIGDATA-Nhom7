@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-11-17T09:55:07.278073",
+  "folder_name": "inventory_management",
+  "folder_path": "/home/sirin/BIGDATA/Inventory-Management/result",
+  "files": [
+    {
+      "name": "comprehensive_inventory_analysis_20251117_073238.png",
+      "size": 979818,
+      "hash": "3b0fb859c81f534abc238eb4a9763f519dcabd3f571e06341e69cc885875c75d",
+      "type": "png"
+    },
+    {
+      "name": "echelon_analysis_20251117_073238.csv",
+      "size": 450,
+      "hash": "3b20e0901aeab702ea52147c66a91b30677bf4896b74005a779a2fd8d2546c2c",
+      "type": "csv"
+    },
+    {
+      "name": "forecast_error_metrics_20251117_073238.csv",
+      "size": 175,
+      "hash": "7ddb0a848c14a53d53167cc0e1221394e6c82124481520b2eb38d2bebee256a3",
+      "type": "csv"
+    },
+    {
+      "name": "inventory_optimization_results_20251117_073238.csv",
+      "size": 145724693,
+      "hash": "9ab6f233ce9adf27231715ad3bf05d3509a9716ed39cbb39784f3c1d3253d068",
+      "type": "csv"
+    }
+  ],
+  "total_size": 146705136,
+  "file_count": 4
+}
