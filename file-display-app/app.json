@@ -2,13 +2,14 @@
   "name": "BIGDATA File Display App",
   "short_description": "React UI for browsing BIGDATA result files",
   "version": "1.0.0",
-  "author": "Your Name",
+  "author": "LQT",
   "license": "MIT",
   "homepage": "http://localhost:3000",
   "directories_scanned": [
     "quick-result",
     "Optimize-Delivery/optimize/result",
-    "Inventory-Management/result"
+    "Inventory-Management/result",
+    "ML-result-for-inventory-management"
   ],
   "features": [
     "Browse files from multiple directories",

@@ -25,6 +25,10 @@ const DIRECTORIES = [
     name: 'Inventory-Management Results',
     path: '/home/sirin/BIGDATA/Inventory-Management/result',
   },
+  {
+    name: 'ML-result-for-inventory-management',
+    path: '/home/sirin/BIGDATA/ML-result-for-inventory-management',
+  },
 ];
 
 // Helper function to get file info

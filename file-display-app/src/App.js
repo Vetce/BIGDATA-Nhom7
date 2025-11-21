@@ -51,9 +51,6 @@ function App() {
         <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 'bold', mb: 2 }}>
           📁 BIGDATA File Explorer
         </Typography>
-        <Typography variant="subtitle1" color="textSecondary">
-          Browse and manage files from your data directories
-        </Typography>
       </Box>
 
       {error && (
