@@ -18,7 +18,9 @@ logger = logging.getLogger(__name__)
 # Result folders
 FOLDERS = {
     'optimize_delivery': '/home/sirin/BIGDATA/Optimize-Delivery/optimize/result',
-    'inventory_management': '/home/sirin/BIGDATA/Inventory-Management/result'
+    'inventory_management': '/home/sirin/BIGDATA/Inventory-Management/result',
+    'DL_Routes': '/home/sirin/BIGDATA/quick-result',
+    'ML_Inventory': '/home/sirin/BIGDATA/ML-result-for-inventory-management'
 }
 
 # Archive location

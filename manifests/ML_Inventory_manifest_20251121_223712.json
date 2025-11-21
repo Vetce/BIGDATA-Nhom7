@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-11-21T22:37:12.624242",
+  "folder_name": "ML_Inventory",
+  "folder_path": "/home/sirin/BIGDATA/ML-result-for-inventory-management",
+  "files": [
+    {
+      "name": "feature_importance.png",
+      "size": 47473,
+      "hash": "d79ad77706e97dce1fc155817f63222fb27ad8c28058dddc10ff527456ca3ff1",
+      "type": "png"
+    },
+    {
+      "name": "inventory_predictions_20251121_173226.csv",
+      "size": 21370320,
+      "hash": "7206c1b611c9f382e51639c15791094ea49a96e5d59c56d9f48f2674cde25330",
+      "type": "csv"
+    },
+    {
+      "name": "model_metrics_20251121_173226.json",
+      "size": 539,
+      "hash": "cf5ae82d8ea9d3016aab246737d221606ff2e150db6c6e6bd5ebe04f72778d66",
+      "type": "json"
+    },
+    {
+      "name": "model_performance.png",
+      "size": 145669,
+      "hash": "5e327584c240e6eaad1c7e3e764615a3b2fdfec23f3b6a5583135bb623ca0f15",
+      "type": "png"
+    },
+    {
+      "name": "priority_items_20251121_173226.csv",
+      "size": 6239901,
+      "hash": "c7ae9599c4c571532aab3aea53904110b9d1717e1aa343615e52d35618fc76be",
+      "type": "csv"
+    }
+  ],
+  "total_size": 27803902,
+  "file_count": 5
+}

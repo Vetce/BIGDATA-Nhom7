@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-21T22:37:10.839231",
+  "folder_name": "DL_Routes",
+  "folder_path": "/home/sirin/BIGDATA/quick-result",
+  "files": [
+    {
+      "name": "delivery_optimization_results_20251120_163355.csv",
+      "size": 13635070,
+      "hash": "fb4e81c20a77bd742981cb0692fafed8098c2dc5004b93f261072d41b407b566",
+      "type": "csv"
+    },
+    {
+      "name": "delivery_optimizer_model_20251120_163355.h5",
+      "size": 222216,
+      "hash": "ef3e9c909f830b5472e9fd6f0de7eb101c449c9ff3cafa129aaf291e1050a89f",
+      "type": "h5"
+    },
+    {
+      "name": "optimization_metrics_20251120_163355.json",
+      "size": 1631,
+      "hash": "11d2e81498ce4663a04578292a75184e4226118711242a9c49db4055903a706d",
+      "type": "json"
+    },
+    {
+      "name": "pickup_optimization_results_20251120_163355.csv",
+      "size": 15454863,
+      "hash": "abe28bc2629dbe69a95390238c77539a9b6156c7f92190a6741a7fc7cc02da8e",
+      "type": "csv"
+    },
+    {
+      "name": "pickup_optimizer_model_20251120_163355.h5",
+      "size": 219144,
+      "hash": "8e7f811a0589fe2c553c88bf788b2e17407c5f63c34fc72364c488e2dbba2826",
+      "type": "h5"
+    },
+    {
+      "name": "preprocessing_artifacts_20251120_163355.pkl",
+      "size": 1805,
+      "hash": "b555e7d64558cdb58659ad018fbe9faeaf9f569ae9ef7f97b8052ee07aee386f",
+      "type": "pkl"
+    },
+    {
+      "name": "recommendations_summary_20251120_163355.csv",
+      "size": 16282139,
+      "hash": "1768ea0a2c4a6adf400847c5ebe52f6c55a1effaac91afddab2e75af525fc3b9",
+      "type": "csv"
+    }
+  ],
+  "total_size": 45816868,
+  "file_count": 7
+}

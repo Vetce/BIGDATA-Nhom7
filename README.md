@@ -114,3 +114,7 @@ npm run dev
 Then open: **http://localhost:3000**
 
 ---
+
+thư mục BIGDATA/archives là sau khi đóng gói kết quả đạt được qua chạy file 
+BIGDATA/archive_results.py
+và thư mục archives được lưu và setup NFS từ máy của nhóm trưởng, các thành viên khác có thể mount lại qua setup NFS để lấy dữ liệu qua server mạng, đây là hình thức lưu trữ kết quả thay cho Kafka

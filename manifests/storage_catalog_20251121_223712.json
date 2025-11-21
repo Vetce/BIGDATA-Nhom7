@@ -1,0 +1,33 @@
+{
+  "created": "2025-11-21T22:37:01.381177",
+  "folders": {
+    "optimize_delivery": {
+      "path": "/home/sirin/BIGDATA/Optimize-Delivery/optimize/result",
+      "manifest": "/home/sirin/BIGDATA/manifests/optimize_delivery_manifest_20251121_223701.json",
+      "archive": "/home/sirin/BIGDATA/archives/optimize_delivery_20251121_223701.zip",
+      "file_count": 28,
+      "total_size": 216691118
+    },
+    "inventory_management": {
+      "path": "/home/sirin/BIGDATA/Inventory-Management/result",
+      "manifest": "/home/sirin/BIGDATA/manifests/inventory_management_manifest_20251121_223709.json",
+      "archive": "/home/sirin/BIGDATA/archives/inventory_management_20251121_223709.zip",
+      "file_count": 4,
+      "total_size": 146705136
+    },
+    "DL_Routes": {
+      "path": "/home/sirin/BIGDATA/quick-result",
+      "manifest": "/home/sirin/BIGDATA/manifests/DL_Routes_manifest_20251121_223710.json",
+      "archive": "/home/sirin/BIGDATA/archives/DL_Routes_20251121_223710.zip",
+      "file_count": 7,
+      "total_size": 45816868
+    },
+    "ML_Inventory": {
+      "path": "/home/sirin/BIGDATA/ML-result-for-inventory-management",
+      "manifest": "/home/sirin/BIGDATA/manifests/ML_Inventory_manifest_20251121_223712.json",
+      "archive": "/home/sirin/BIGDATA/archives/ML_Inventory_20251121_223712.zip",
+      "file_count": 5,
+      "total_size": 27803902
+    }
+  }
+}
