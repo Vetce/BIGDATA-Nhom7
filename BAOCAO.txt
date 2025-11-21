@@ -308,8 +308,8 @@ Triển khai web
 
     BIGDATA/quick-result, tải lên và đánh giá thêm
 
-- Mô hình học sâu cho Inventory-management
-    + + Sử dụng TensorFlow/Keras để xây dựng mô hình deep learning nhằm xử lý tồn kho
+- Mô hình học máy cho Inventory-management
+    + Sử dụng các thuật toán học máy để phân tích và dự báo tồn kho dựa trên dữ liệu sản phẩm và cửa hàng.
     + Code minh hoạ:
 
     BIGDATA/Inventory-Management-For-Quickresult.ipynb
