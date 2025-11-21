@@ -87,7 +87,7 @@ Hadoop
 Python
 and more...
 
-Cách chạy WEB
+Cách chạy WEB cho LINUX
 
 
 ##  Quick Start 
@@ -114,6 +114,10 @@ npm run dev
 Then open: **http://localhost:3000**
 
 ---
+
+Với windows
+vào thư mục BIGDATA/file-display-app-windows và làm theo quickstart.md
+
 
 thư mục BIGDATA/archives là sau khi đóng gói kết quả đạt được qua chạy file 
 BIGDATA/archive_results.py

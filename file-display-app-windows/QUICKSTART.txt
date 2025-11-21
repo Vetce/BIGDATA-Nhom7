@@ -1,0 +1,35 @@
+╔════════════════════════════════════════════════════════════════╗
+║  BIGDATA File Display App - Windows Quick Start               ║
+╚════════════════════════════════════════════════════════════════╝
+
+PREREQUISITES:
+  ✓ Node.js 14+ must be installed
+  ✓ Download from: https://nodejs.org
+
+INSTALLATION:
+  1. Double-click: setup.bat
+  2. Wait for installation to complete
+
+RUNNING THE APP:
+  ► Double-click: start.bat
+  
+  OR run separately:
+  ► start-backend.bat (in one window)
+  ► start-frontend.bat (in another window)
+
+ACCESS:
+  ► Frontend: http://localhost:3000
+  ► Backend:  http://localhost:5000
+
+TROUBLESHOOTING:
+  • If "Node.js not found" → Install Node.js and restart
+  • If ports busy → Close other apps on ports 3000/5000
+  • If setup fails → Run Command Prompt as Administrator
+
+FOLDER STRUCTURE:
+  file-display-app-windows/   ← You are here (Windows scripts)
+  file-display-app/            ← Main application folder
+
+═══════════════════════════════════════════════════════════════════
+
+Questions? See README.md for detailed documentation.
