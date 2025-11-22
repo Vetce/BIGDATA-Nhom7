@@ -1,12 +1,11 @@
-╔════════════════════════════════════════════════════════════════╗
-║  BIGDATA File Display App - Windows Quick Start               ║
-╚════════════════════════════════════════════════════════════════╝
+
 
 PREREQUISITES:
   ✓ Node.js 14+ must be installed
   ✓ Download from: https://nodejs.org
 
-QUICK SETUP (3 Steps):
+QUICK SETUP AND RUN:
+  STEP 0: Run cleanup.bat
   
   STEP 1: Run diagnostics (optional)
   ► Double-click: diagnose.bat
