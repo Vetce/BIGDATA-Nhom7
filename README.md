@@ -1,18 +1,14 @@
-# BTL nhóm 7
-
-# Môn Bigdata
+# BTL Kỹ thuật và công nghệ dữ liệu lớn cho trí tuệ nhân tạo - nhóm 7
 
 Thành viên nhóm:
 1. Nông Phi Long
 2. Chu Thanh Tùng
 3. Phạm Quân
 
-# Chủ đề:
+# Đề tài:
 
-Optimize delivery routes & Inventory management
+Optimize delivery routes & Inventory management (Xây dựng hệ thống tối ưu tuyến giao hàng và quản lý tồn kho)
 
-# Mục tiêu:
-- Xây dựng hệ thống tối ưu tuyến giao hàng và quản lý tồn kho
 ![LaDe](Datapack/Image/LaDe.png)
 
 # Cách hoạt động:
