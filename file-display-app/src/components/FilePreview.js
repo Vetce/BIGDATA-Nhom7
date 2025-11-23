@@ -27,6 +27,7 @@ const FilePreview = ({ open, file, onClose }) => {
     if (open && file) {
       fetchPreview();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, file]);
 
   const fetchPreview = async () => {

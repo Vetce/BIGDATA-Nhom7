@@ -1,3 +1,16 @@
+BTL nhóm 7
+
+Môn Bigdata
+
+Chủ đề:
+
+Optimize delivery routes & Inventory management
+
+Mục tiêu:
+- Xây dựng hệ thống tối ưu tuyến giao hàng và quản lý tồn kho
+
+Cách hoạt động:
+
 !!!! SETUP NFS
 /
 với máy khác làm theo trong mục BIGDATA/ForOtherNFS
@@ -59,7 +72,6 @@ BIGDATA/Optimize-Delivery/optimize/result
 - sau đó chạy file BIGDATA/Inventory-Management/Inventory-Management.ipynb cho việc import, chạy mô hình,
 trực quan hóa và kết quả được export trong mục BIGDATA/Inventory-Management/result
 
-- cuối cùng là viết báo cáo
 
 3. OPTIONAL
 - có thẻ chạy file Inventory-Management-For-Quickresult.ipynb cho mô hình DL quản lý tồn kho, kết quả nằm ở BIGDATA/ML-result-for-inventory-management
@@ -87,30 +99,10 @@ Hadoop
 Python
 and more...
 
+
+
 Cách chạy WEB cho LINUX
-
-
-##  Quick Start 
-Make scripts executable
-```bash
-chmod +x /path/to/BIGDATA/file-display-app/setup.sh (thay bằng đường dẫn trong máy)
-chmod +x /path/to/BIGDATA/file-display-app/install.sh (thay bằng đường dẫn trong máy)
-
-```
-Run setup
-```bash
-/home/sirin/BIGDATA/file-display-app/setup.sh (thay bằng đường dẫn trong máy)
-
-```
-3 Start application
-```bash
-cd /path/to/BIGDATA/file-display-app (thay bằng đường dẫn trong máy)
-npm run dev
-```
-
-Then open: **http://localhost:3000**
-
----
+vào mục BIGDATA/file-display-app làm theo quick start
 
 Với windows
 vào thư mục BIGDATA/file-display-app-windows và làm theo quickstart.md

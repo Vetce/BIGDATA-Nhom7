@@ -1,8 +1,38 @@
-# 📊 BIGDATA File Display App - Complete Summary
 
-## 🎯 Project Overview
+---
 
-A full-stack React + Node.js web application for browsing, previewing, and downloading files from your BIGDATA result directories.
+##  Quick Start (3 Steps)
+
+### 1️ Make scripts executable
+```bash
+chmod +x /home/sirin/BIGDATA/file-display-app/setup.sh
+chmod +x /home/sirin/BIGDATA/file-display-app/install.sh
+
+```
+
+### 2️⃣ Run setup
+```bash
+/home/sirin/BIGDATA/file-display-app/setup.sh
+```
+
+### 3️⃣ Start application
+```bash
+cd /home/sirin/BIGDATA/file-display-app
+npm run dev
+```
+
+Then open: **http://localhost:3000**
+
+---
+
+
+
+
+
+
+
+
+
 
 **Application URL:** http://localhost:3000  
 **Backend API:** http://localhost:5000
@@ -42,33 +72,8 @@ file-display-app/
     └── index.js                 # Express API server
 ```
 
----
 
-## 🚀 Quick Start (3 Steps)
-
-### 1️⃣ Make scripts executable
-```bash
-chmod +x /home/sirin/BIGDATA/file-display-app/setup.sh
-chmod +x /home/sirin/BIGDATA/file-display-app/install.sh
-
-```
-
-### 2️⃣ Run setup
-```bash
-/home/sirin/BIGDATA/file-display-app/setup.sh
-```
-
-### 3️⃣ Start application
-```bash
-cd /home/sirin/BIGDATA/file-display-app
-npm run dev
-```
-
-Then open: **http://localhost:3000**
-
----
-
-## 💻 Technology Stack
+##  Technology Stack
 
 ### Frontend
 - **React 18.2** - UI framework
@@ -84,7 +89,7 @@ Then open: **http://localhost:3000**
 
 ---
 
-## ✨ Features at a Glance
+##  Features at a Glance
 
 | Feature | Details |
 |---------|---------|

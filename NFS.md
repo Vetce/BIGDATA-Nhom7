@@ -16,7 +16,7 @@ echo '/home/sirin/BIGDATA/archives *(rw,sync,no_subtree_check,no_root_squash)' |
 sudo exportfs -a -v
 
 
-4/
+4/ (optional)
 sudo systemctl start nfs-server
 sudo systemctl enable nfs-server
 sudo systemctl start rpc-statd

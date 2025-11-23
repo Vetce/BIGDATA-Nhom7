@@ -59,7 +59,7 @@ def upload_folder(local_path, hdfs_path):
         print(f"✗ Local path is not a directory: {local_path}")
         return
 
-    print(f"\n📁 Processing: {local_path} -> {hdfs_path}")
+    print(f"\n Processing: {local_path} -> {hdfs_path}")
     
     # Create the target directory in HDFS
     hdfs_makedirs(hdfs_path)
@@ -83,9 +83,7 @@ def upload_folder(local_path, hdfs_path):
 
 def verify_structure():
     """Verify the uploaded structure in HDFS"""
-    print("\n" + "="*50)
-    print("=== HDFS Verification ===")
-    print("="*50 + "\n")
+    print("HDFS Verification")
     
     success, output = run_hdfs_command("hdfs dfs -ls -R /bigdata")
     if success:

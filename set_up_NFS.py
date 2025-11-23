@@ -88,24 +88,41 @@ class NFSSetup:
         try:
             # Check if already configured
             with open(self.nfs_config_file, 'r') as f:
-                content = f.read()
-                if self.archives_path in content:
-                    logger.info("✓ Archives path already in NFS exports")
+                lines = f.readlines()
+                # Count occurrences of the archives path
+                export_count = sum(1 for line in lines if self.archives_path in line and not line.strip().startswith('#'))
+                
+                if export_count > 1:
+                    logger.warning(f"⚠ Found {export_count} duplicate entries for {self.archives_path}")
+                    logger.info("To fix duplicates, run:")
+                    logger.info(f"sudo python3 -c \"")
+                    logger.info(f"lines = open('{self.nfs_config_file}', 'r').readlines()")
+                    logger.info(f"seen = set()")
+                    logger.info(f"with open('{self.nfs_config_file}', 'w') as f:")
+                    logger.info(f"    for line in lines:")
+                    logger.info(f"        if '{self.archives_path}' not in line or line.strip().startswith('#') or line not in seen:")
+                    logger.info(f"            f.write(line)")
+                    logger.info(f"            if '{self.archives_path}' in line: seen.add(line)")
+                    logger.info(f"\"")
+                    logger.info("\nOr manually edit /etc/exports to remove duplicate lines")
+                    return False
+                elif export_count == 1:
+                    logger.info("✓ Archives path already in NFS exports (no duplicates)")
                     return True
         except FileNotFoundError:
             logger.warning(f"{self.nfs_config_file} not found, creating backup strategy")
         except PermissionError:
             logger.error("✗ Permission denied reading /etc/exports")
-            logger.info("Try: sudo")
+            logger.info("Try running with sudo")
             return False
         
         # Generate NFS export entry
-        export_entry = f"\n# NFS Export for BIGDATA Archives\n{self.archives_path} *(${self.nfs_mount_options})\n"
+        export_entry = f"# NFS Export for BIGDATA Archives\n{self.archives_path} *({self.nfs_mount_options})\n"
         
-        logger.info(f"Export entry:\n{export_entry}")
+        logger.info(f"Export entry to add:\n{export_entry}")
         logger.info("To apply this configuration, run:")
         logger.info(f"echo '{export_entry}' | sudo tee -a {self.nfs_config_file}")
-        logger.info("sudo exportfs -a -v")
+        logger.info("sudo exportfs -ra")
         
         return True
     
