@@ -1,6 +1,6 @@
 !!!! SETUP NFS
 /
-với máy khách làm theo trong mục BIGDATA/ForOtherNFS
+với máy khác làm theo trong mục BIGDATA/ForOtherNFS
 /
 với máy chính chạy BIGDATA/set_up_NFS.py
 và làm theo BIGDATA/NFS.md
