@@ -105,9 +105,8 @@ def create_storage_catalog():
         'folders': {}
     }
     
-    print("\n" + "="*70)
     print("CREATING STORAGE CATALOG")
-    print("="*70 + "\n")
+
     
     for folder_key, folder_path in FOLDERS.items():
         logger.info(f"\nProcessing: {folder_key}")
