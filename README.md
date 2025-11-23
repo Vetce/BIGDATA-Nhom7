@@ -1,9 +1,9 @@
 # BTL Kỹ thuật và công nghệ dữ liệu lớn cho trí tuệ nhân tạo - nhóm 7
 
 Thành viên nhóm:
-1. Nông Phi Long
-2. Chu Thanh Tùng
-3. Phạm Quân
+1. Nông Phi Long - 23020398
+2. Chu Thanh Tùng - 23020431
+3. Phạm Quân - 23020418
 
 # Đề tài:
 
@@ -13,11 +13,8 @@ Optimize delivery routes & Inventory management (Xây dựng hệ thống tối 
 # Cách hoạt động:
 
 # !!!! SETUP NFS
-/
-với máy khác làm theo trong mục BIGDATA/ForOtherNFS
-/
-với máy chính chạy BIGDATA/set_up_NFS.py
-và làm theo BIGDATA/NFS.md
+Làm theo trong mục BIGDATA/ForOtherNFS.
+
 
 # !!!YÊU CẦu
 
@@ -27,13 +24,13 @@ và làm theo BIGDATA/NFS.md
 
 upload các folder Delivery, PickUp, Roadmap, Inventory lên HDFS bằng file BIGDATA/upload_to_hdfs.py
 
-chạy hadoop
+khởi chạy hadoop
 
 start-dfs.sh
 start-yarn.sh
 
 
-!!!!!Sau đó làm theo các mục dưới đây
+!!!!!Sau đó làm theo các mục dưới đây:
 
 # Optimize delivery routes
 
