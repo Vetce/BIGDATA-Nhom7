@@ -82,8 +82,8 @@ trực quan hóa và kết quả được export trong mục BIGDATA/Inventory-M
 
 
 # OPTIONAL
-- có thẻ chạy file Inventory-Management-For-Quickresult.ipynb cho mô hình DL quản lý tồn kho, kết quả nằm ở BIGDATA/ML-result-for-inventory-management
-- Có thể chạy file OPTIMIZE-FOR-SHIPPER.ipynb để thử chạy mô hình DL cho tối ưu tuyến giao hàng, kết quả nằm ở
+- có thẻ chạy file Inventory-Management-For-Quickresult.ipynb cho mô hình ML quản lý tồn kho, kết quả nằm ở BIGDATA/ML-result-for-inventory-management
+- Có thể chạy file OPTIMIZE-FOR-SHIPPER.ipynb để  chạy mô hình DL cho tối ưu tuyến giao hàng, kết quả nằm ở
 BIGDATA/quick-result
 
 
